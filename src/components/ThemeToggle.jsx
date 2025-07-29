@@ -32,6 +32,14 @@ export const ThemeToggle = () => {
     <button
       onClick={toggleTheme}
       className={cn(
+        /**
+         *  fixed top-5 right-5	Pins the button to the top-right corner of the screen.
+            max-sm:hidden	Hides the button on very small screens (can be adjusted later).
+            z-50	Ensures it's on top of everything else.
+            p-2 rounded-full	Adds padding and circular shape.
+            transition-colors duration-300	Smooth color transitions (e.g., icon color on theme switch).
+            focus:outline-hidden	Likely meant to remove the focus ring — note: Tailwind doesn't have outline-hidden, so this won’t work. Replace with:
+         */
         "fixed max-sm:hidden top-5 right-5 z-50 p-2 rounded-full transition-colors duration-300",
         "focus:outline-hidden"
       )}
