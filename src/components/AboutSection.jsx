@@ -15,7 +15,7 @@ export const AboutSection = () => {
               {" "}
               With over 2 years of experience in web development, I specialize
               in creating responsive, accessible, and performant web
-              applications using modernt technologies.
+              applications using modern technologies.
             </p>
             <p className="text-muted-foreground">
               I'm passionate about creating meaningful solutions for complex
