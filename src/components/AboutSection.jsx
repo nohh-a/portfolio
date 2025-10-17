@@ -4,16 +4,25 @@ import React from "react";
 export const AboutSection = () => {
   return (
     <section id="about" className="py-24 px-4 relative">
-      AboutSection
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
           About <span className="text-primary">Me</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">Passionate Web Dev</h3>
-            <p className="text-muted-foreground">With over 1 years of exp</p>
-            <p className="text-muted-foreground">I'm passionate</p>
+            <h3 className="text-2xl font-semibold"></h3>
+            <p className="text-muted-foreground">
+              {" "}
+              With over 2 years of experience in web development, I specialize
+              in creating responsive, accessible, and performant web
+              applications using modernt technologies.
+            </p>
+            <p className="text-muted-foreground">
+              I'm passionate about creating meaningful solutions for complex
+              problems, and I am currently reviewing over data structures and
+              algorithms to improve the integrity of my code and stay at the
+              forefront of the constantly evolving tech landscape.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
                 Contact
