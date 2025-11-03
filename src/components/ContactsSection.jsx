@@ -37,7 +37,7 @@ export const ContactSection = () => {
           <div className="space-y-16">
             <h3 className="text-2xl font-semibold mb-6">
               {" "}
-              , Contact Information
+              Contact Information
             </h3>
             <div className="space-y-6 flex flex-col items-center">
               <div className="flex space-x-4">
