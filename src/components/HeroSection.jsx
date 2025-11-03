@@ -22,8 +22,7 @@ export const HeroSection = () => {
             a double degree in Information Technology (Software Dev) and
             Business (Banking and Finance). I am confident in my skills to
             provide real solutions to real world problems, but I am still humble
-            to continue learning to ensure I can be be the best developer I can
-            be!
+            to continue learning to ensure I can be the best developer I can!
           </p>
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">

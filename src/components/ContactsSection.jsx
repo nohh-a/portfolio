@@ -37,7 +37,7 @@ export const ContactSection = () => {
           <div className="space-y-16">
             <h3 className="text-2xl font-semibold mb-6">
               {" "}
-              Contact Information
+              , Contact Information
             </h3>
             <div className="space-y-6 flex flex-col items-center">
               <div className="flex space-x-4">
@@ -79,7 +79,7 @@ export const ContactSection = () => {
                   </a>
                 </div>
               </div>
-              <div className="flex justify-start space-x-4">
+              {/* <div className="flex justify-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Linkedin className="h-6 w-6 text-primary" />
                 </div>
@@ -89,7 +89,7 @@ export const ContactSection = () => {
                     Connect With Me
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

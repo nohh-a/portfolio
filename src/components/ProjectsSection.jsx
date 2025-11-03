@@ -12,7 +12,8 @@ const projects = [
     image: "/projects/project1.png",
     tags: ["CakePHP", "CSS"],
     demoURL: "#",
-    githubUrl: "#",
+    githubUrl:
+      "https://github.com/nohh-a/MonashHealth-Radiology-Student-Study-Site",
   },
   {
     id: 2,
@@ -21,7 +22,7 @@ const projects = [
     image: "/projects/project2.png",
     tags: ["Flask", "CSS"],
     demoURL: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/nohh-a/ScrumBoys",
   },
   {
     id: 3,
@@ -30,7 +31,7 @@ const projects = [
     image: "/projects/project3.png",
     tags: ["CakePHP", "CSS"],
     demoURL: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/nohh-a/FIT3047-TeaLovers",
   },
 ];
 

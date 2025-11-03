@@ -1,3 +1,7 @@
+/**
+ * Footer for portfolio
+ */
+
 import { ArrowUp } from "lucide-react";
 import React from "react";
 
