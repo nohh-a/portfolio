@@ -11,7 +11,7 @@ const projects = [
     description: "Monasy Radiology Student Study Site",
     image: "/projects/project1.png",
     tags: ["CakePHP", "CSS"],
-    demoURL: "#",
+    demoURL: "https://student-radiology.page.gd/?i=1",
     githubUrl:
       "https://github.com/nohh-a/MonashHealth-Radiology-Student-Study-Site",
   },
@@ -21,7 +21,6 @@ const projects = [
     description: "Agile Project Management Tool",
     image: "/projects/project2.png",
     tags: ["Flask", "CSS"],
-    demoURL: "#",
     githubUrl: "https://github.com/nohh-a/ScrumBoys",
   },
   {
@@ -30,7 +29,6 @@ const projects = [
     description: "ECommerce Tea Website",
     image: "/projects/project3.png",
     tags: ["CakePHP", "CSS"],
-    demoURL: "#",
     githubUrl: "https://github.com/nohh-a/FIT3047-TeaLovers",
   },
 ];
@@ -45,7 +43,6 @@ export const ProjectsSection = () => {
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto ">
           {" "}
-          Here are my projects
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
@@ -75,13 +72,16 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
-                      href={project.demoURL}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20} />
-                    </a>{" "}
+                    {project.demoURL && (
+                      <a
+                        href={project.demoURL}
+                        target="_blank"
+                        className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                      >
+                        <ExternalLink size={20} />
+                      </a>
+                    )}
+
                     <a
                       href={project.githubUrl}
                       target="_blank"
