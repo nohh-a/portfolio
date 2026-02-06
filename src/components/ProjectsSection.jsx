@@ -10,7 +10,7 @@ const projects = [
     title: "Monash Radiology",
     description: "Monasy Radiology Student Study Site",
     image: "/projects/project1.png",
-    tags: ["CakePHP", "CSS"],
+    tags: ["CakePHP", "PHP", "Javscript", "MySQL"],
     demoURL: "https://student-radiology.page.gd/?i=1",
     githubUrl:
       "https://github.com/nohh-a/MonashHealth-Radiology-Student-Study-Site",
@@ -20,7 +20,7 @@ const projects = [
     title: "Scrum Boys",
     description: "Agile Project Management Tool",
     image: "/projects/project2.png",
-    tags: ["Flask", "CSS"],
+    tags: ["Flask", "Python", "Javascript", "SQLite"],
     githubUrl: "https://github.com/nohh-a/ScrumBoys",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     title: "TeaLovers",
     description: "ECommerce Tea Website",
     image: "/projects/project3.png",
-    tags: ["CakePHP", "CSS"],
+    tags: ["CakePHP", "PHP", "Javscript", "MySQL"],
     githubUrl: "https://github.com/nohh-a/FIT3047-TeaLovers",
   },
 ];
