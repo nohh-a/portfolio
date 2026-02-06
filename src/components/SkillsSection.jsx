@@ -4,20 +4,21 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils";
 import {
-  Code,
+  Palette,
   Braces,
-  Database,
-  Server,
-  Boxes,
-  GitBranch,
-  Figma,
-  Cloud,
-  Terminal,
+  Workflow,
   Layers,
   Globe,
-  Palette,
+  Server,
+  Code,
+  Terminal,
+  FileCode,
+  Database,
+  GitBranch,
   Cpu,
-  Workflow,
+  Cloud,
+  PenTool,
+  Kanban,
 } from "lucide-react";
 
 const skills = [
@@ -31,16 +32,18 @@ const skills = [
   // BACKEND
   { name: "Node.js", icon: Server, category: "backend" },
   { name: "Express", icon: Code, category: "backend" },
+  { name: "Python", icon: Terminal, category: "backend" },
+  { name: "PHP", icon: FileCode, category: "backend" },
+  { name: "MySQL", icon: Database, category: "backend" },
   { name: "MongoDB", icon: Database, category: "backend" },
-  { name: "PostgreSQL", icon: Database, category: "backend" },
-  { name: "GraphQL", icon: Boxes, category: "backend" },
 
   // TOOLS
   { name: "Git/GitHub", icon: GitBranch, category: "tools" },
-  { name: "Figma", icon: Figma, category: "tools" },
+  { name: "Figma", icon: PenTool, category: "tools" },
   { name: "VS Code", icon: Terminal, category: "tools" },
-  { name: "CPanel", icon: Cpu, category: "tools" },
+  { name: "cPanel", icon: Cpu, category: "tools" },
   { name: "AWS", icon: Cloud, category: "tools" },
+  { name: "Trello", icon: Kanban, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
@@ -48,7 +51,7 @@ const categories = ["all", "frontend", "backend", "tools"];
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
   const filteredSkills = skills.filter(
-    (skill) => activeCategory === "all" || skill.category === activeCategory
+    (skill) => activeCategory === "all" || skill.category === activeCategory,
   );
 
   return (
@@ -68,7 +71,7 @@ export const SkillsSection = () => {
                 "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
-                  : "bg-secondary/70 text-foreground hover:bg-secondary"
+                  : "bg-secondary/70 text-foreground hover:bg-secondary",
               )}
             >
               {category}

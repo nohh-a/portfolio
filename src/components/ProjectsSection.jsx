@@ -81,7 +81,6 @@ export const ProjectsSection = () => {
                         <ExternalLink size={20} />
                       </a>
                     )}
-
                     <a
                       href={project.githubUrl}
                       target="_blank"
@@ -99,7 +98,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="github.com/nohh-a"
+            href="https://github.com/nohh-a"
           >
             Check my GitHub <ArrowRight size={16} />
           </a>

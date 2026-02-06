@@ -18,11 +18,12 @@ export const HeroSection = () => {
             </span>
           </h1>{" "}
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I am a software engineer that graduated from Monash University with
-            a double degree in Information Technology (Software Dev) and
-            Business (Banking and Finance). I am confident in my skills to
-            provide real solutions to real world problems, but I am still humble
-            to continue learning to ensure I can be the best developer I can!
+            I’m a software engineer and Monash University graduate with a double
+            degree in Information Technology (Software Development) and Business
+            (Banking and Finance). I enjoy turning real-world problems into
+            practical software solutions, and while I’m confident in my
+            abilities, I’m always eager to keep learning and improving as a
+            developer!
           </p>
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
